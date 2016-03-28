@@ -1,0 +1,29 @@
+{
+  "name": "cordova-plugin-procManager",
+  "version": "1.0.0",
+  "description": "Apache Cordova Process manager Plugin",
+  "cordova": {
+    "id": "cordova-plugin-procManager",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liront/cordova-plugin-procManager"
+  },
+  "keywords": [
+    "process",
+    "manager",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=5.0.0"
+    }
+  ],
+  "author": "Liron Tagger",
+  "license": "Apache 2.0",
+  "homepage": "https://github.com/liront/cordova-plugin-procManager"
+}
