@@ -26,7 +26,7 @@ import android.app.ActivityManager;
 import android.app.ActivityManager.MemoryInfo;
 import android.app.ActivityManager.RunningAppProcessInfo;
 
-public class ShellExec extends CordovaPlugin {
+public class ProcManager extends CordovaPlugin {
     private ActivityManager activityManager;
     private Activity activity;
     private Context context;
