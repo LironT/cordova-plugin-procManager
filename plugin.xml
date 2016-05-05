@@ -12,6 +12,7 @@
       <uses-permission android:name="android.permission.GET_TASKS" />
       <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
       <uses-permission android:name="android.permission.FORCE_STOP_PACKAGES" />
+      <uses-permission android:name="android.permission.RESTART_PACKAGES" />
     </config-file>
 
     <config-file parent="/*" target="res/xml/config.xml">
@@ -20,6 +21,6 @@
         <param name="onload" value="true" />
       </feature>
     </config-file>
-    <source-file src="src/cordova/plugin/procManager.java" target-dir="src/cordova/procManager" />
+    <source-file src="src/cordova/plugin/procManager.java" target-dir="src/cordova/plugin/procManager" />
   </platform>
 </plugin>
